@@ -1,0 +1,577 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utkarsh | Web Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Alfa Slab One font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+      
+    <!-- Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="favicon1.png" type="image/png">
+
+    <!-- Animation library styles -->    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Iconify Icons -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="header">
+      <div id="particles-js">
+        <nav id="nav" data-aos="fade-in">
+          <div class="container nav-container">
+            <a href="index.html" id="logo">
+              <img src="logo1.png" alt="logo">
+            </a>
+            <ul class="hide-for-mobile nav-links flex">
+              <li>
+                <a href="#projects" class="link"
+                  ><i class="fas fa-code"></i> Projects</a
+                >
+              </li>
+              <li>
+                <a href="#skills" class="link"
+                  ><i class="fas fa-tools"></i> Skills</a
+                >
+              </li>
+              <li>
+                <a href="#education" class="link"><i class="fas fa-user-graduate"></i> Education</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="link"
+                  ><i class="fas fa-envelope"></i> Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+  
+          <div class="mobile-menu hide-for-desktop">
+            <div class="container">
+              <div class="mobile-menu-links">
+                <ul class="flex">
+                  <li>
+                    <a href="#projects" class="link blue-hover"
+                      >Projects</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#skills" class="link blue-hover"
+                      >Skills</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#education" class="link blue-hover"
+                      >Education</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="link blue-hover"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+              
+            </div>
+          </div>
+        </nav>
+
+        <!-- HERO -->
+        <div class="hero">
+          <div data-aos="fade-up">
+            <h1 class="h1">
+              
+              <!-- <span class="typed-text"></span><span class="cursor">&nbsp;</span> -->
+              Hi, I'm <span class="main-font text-blue content">Utkarsh</span>
+            </h1>
+            <p class="student" id="student">
+              I develop beautiful web applications with engaging user interfaces. I have experience in product management, consulting, marketing, CAD & Supply Chain Management.
+            </p>
+            <div class="hero-btns">
+              <a href="#projects" class="btn-blue"><i class="fas fa-code"></i> Projects</a>
+              <a href="https://github.com/utkarshs1" class="btn-blue-outline mx-1" id="projects-btn"
+                target="_blank"><i class="fab fa-github"></i> Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- SOCIAL LINKS -->
+        <div class="socials" data-aos="fade-in"> 
+          <ul>
+            <li class="bg-blue"><a href="https://www.linkedin.com/in/utkarsh-b7b9401a4/"
+              target="_blank"><span class="socials-text">LinkedIn</span> <i class="fab fa-linkedin fa-2x"></i
+            ></a></li>
+            <li class="bg-dark-grey"> <a href="https://github.com/utkarshs1"
+              target="_blank"><span class="socials-text">GitHub</span><i class="fab fa-github fa-2x"></i
+            ></a></li>
+            <li class="bg-white"><a class="text-dark-grey" href="mailto:karshut@iitk.ac.in"><span class="socials-text">Email</span><i class="fas fa-envelope fa-2x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="seperator-skew">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+
+    </header>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="main-font">My <span class="text-blue main-font">Projects</span></h2>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="ecom.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>eCOMMERCE WEBSITE UI</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>Developed a responsive e-commerce website UI using HTML5, CSS3 and Bootstrap in which users can navigate through various sections.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/developer/ecommerce/" class="btn-blue btn-small hover-bg-light" target="_blank"> <i class="fas fa-external-link-alt"></i> Live</a>
+              <a href="https://github.com/utkarshs1/developer" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="rgen.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>RESUME GENERATOR WEB APP</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:nodejs" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>Users can create a professional resume just by filling in their details .They can download and print also with this responsive resume generator web application.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/Work/ResumeGenerator" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/Work" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="todo.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>TO-DO-LIST WEB APP</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>With one of the most user friendly interfaces, users can keep track of their tasks and free their mind of all the hectic work. </p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/task/MyToDoListApp" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/task" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="rp.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>ANIMATED PORTFOLIO WEBSITE</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>It is just an online representation of work I have created, as well as my skills and hobbies with animations adding an attractive look.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/new/responsive_portfolio/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/new" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="cr.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>SCIENTIFIC CALCULATOR</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>This responsive web application is capable of complex scientific calculations and can handle numbers on a much vaster scale. It performs mathematical operations very quickly and works on both desktop and mobile devices.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/cr/calculator/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/cr" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left">
+            <img src="pkd.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>POKÉDEX</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>This is an online web application developed for all those who are attracted to the world of pokémon. In this app, one can search about a pokémon either with its name or pokédex number and get large amount of information about a specific pokémon like its image, coordinates where it is found, its type, attacks, weight and height.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/pkd/pokedex/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/pkd" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="cre.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>2D CAR RACING GAME</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>A video game where the player controls a vehicle in a fantasy environment or track and challenge is to achieve a maximum score without any collision. Try to go as far as you can. Good Luck!</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/cre/car_race/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/cre" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="relax.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>RELAXATION APP</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>This breathing application helps you in keeping centered by taking you through a series of calming, deep breaths. As the circle grows, inhale with awareness as if cool air is entering in with positivity and as the circle shrinks, exhale with awareness as if the air is taking away all the negativity and stress.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/relax/relaxing_app/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/relax" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="ap.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>ANIMATED PORTFOLIO</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>This is an animated portfolio with an attractive and interactive animation in background which responds as mouse is hovered anywhere on the screen giving it a pulchritudinous look. It is a responsive web application which can also be viewed on mobile efficiently.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/ap/animated_portfolio/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/ap" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="time.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>ANIMATED CHRONOMETER</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>This is a web application which tells the accurate time both in the analog mode as well as digital mode, current day, month and year. The most important thing added here are the motivational and positive quotes which keep changing in a specific period of time.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/t/time/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/t" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="coffee.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>COFFEE SHOP ECOMMERCE WEBSITE UI</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Developed with: </b></p>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false"></span></li>
+              <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
+            </ul>
+            <p>This is a responsive e-commerce website UI developed using HTML5, CSS3 and Bootstrap for coffee lovers.</p>
+            <div class="project-links">
+              <a href="https://utkarshs1.github.io/ecs/ecoffeeshop/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+              <a href="https://github.com/utkarshs1/ecs" class="btn-blue-outline btn-small mx-1" target="_blank"> <i class="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="wh.png" alt="">
+          </div>
+        <div class="project-right">
+            <h3>3D WAREHOUSE LAYOUT 1</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Designed with: </b></p>
+              <li><span class="iconify" data-icon="simple-icons:sketchup" data-inline="false" style="color: #236dad;"></span></li>
+            </ul>
+            <p>This is a 3D layout of a warehouse of a location in India designed in SketchUp. The designing of this warehouse layout is done in such a way that the flow of goods and space are optimized along with space for inbound area, outbound area, office and much more.</p>
+            <div class="project-links">
+              <a href="https://app.sketchup.com/app?hl=en" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-row" data-aos="fade-up">
+          <div class="project-left" >
+            <img src="wh2.png" alt="">
+          </div>
+          <div class="project-right">
+            <h3>3D WAREHOUSE LAYOUT 2</h3>
+            <ul class="tech-stack-list">
+              <p class="text-grey"><b>Designed with: </b></p>
+              <li><span class="iconify" data-icon="simple-icons:sketchup" data-inline="false" style="color: #236dad;"></span></li>
+            </ul>
+            <p>This is another 3D layout of a warehouse of a location in India designed in SketchUp. The designing of this warehouse layout is done in such a way that the flow of goods and space are optimized along with space for inbound area, outbound area, office and much more.</p>
+            <div class="project-links">
+              <a href="https://app.sketchup.com/app?hl=en/" class="btn-blue btn-small" target="_blank"> <i class="fas fa-external-link-alt"></i
+                > Live</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    
+     <!-- SKILLS -->
+    <section id="skills" class="skills">
+      <div class="seperator-skew-top">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+      <div class="container" data-aos="fade-in"> 
+        <h2 class="text-white main-font">My <span class="text-blue main-font">Skills</span></h2>
+        <ul class="skills-icons">
+          <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false" data-width="90px" data-height="90px"></span><span>HTML5</span></li>
+          <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false" data-width="90px" data-height="90px"></span><span>CSS3</span></li>
+          <li><span class="iconify" data-icon="vscode-icons:file-type-c" data-inline="false" data-width="90px" data-height="90px"></span><span>C</span></li>
+          <li><span class="iconify" data-icon="file-icons:c" data-inline="false" data-width="90px" data-height="90px" style="color: #3b83b3;" width="200" height="200"></span><span>C++</span></li>
+          <li><span class="iconify" data-icon="logos:javascript" data-inline="false" data-width="90px" data-height="90px"></span><span>JavaScript</span></li>
+          <li><span class="iconify" data-icon="logos:react" data-inline="false" data-width="90px" data-height="90px"></span><span>ReactJS</span></li>
+          <li><span class="iconify" data-icon="logos:nodejs-icon" data-inline="false" data-width="90px" data-height="90px"></span><span>NodeJS</span></li>
+          <li><span class="iconify" data-icon="logos:python" data-inline="false" data-width="90px" data-height="90px"></span><span>Python</span></li>
+          <li><span class="iconify" data-icon="logos:git-icon" data-inline="false" data-width="90px" data-height="90px"></span><span>Git</span></li>
+          <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false" data-width="90px" data-height="90px" style="color:#1a62a1;"></span><span>Bootstrap</span></li>
+          <li><span class="iconify" data-icon="logos:mysql" data-inline="false" data-width="90px" data-height="90px"></span><span>MySQL</span></li>
+          <li><span class="iconify" data-icon="simple-icons:autodesk" data-inline="false" data-width="90px" data-height="90px" style="color: #e32320;"></span><span>AutoCAD</span></li>
+          <li><span class="iconify" data-icon="simple-icons:sketchup" data-inline="false" data-width="90px" data-height="90px" style="color: #236dad;"></span><span>SketchUp</span></li>
+          <li><span class="iconify" data-icon="simple-icons:ansys" data-inline="false" data-width="90px" data-height="90px" style="color: #f2b038;"></span><span>Ansys</span></li>
+          <li><span class="iconify" data-icon="vscode-icons:file-type-matlab" data-inline="false" data-width="90px" data-height="90px"></span><span>MATLAB</span></li>
+          <li><span class="iconify" data-icon="logos:arduino" data-inline="false" data-width="90px" data-height="90px" style="color: #3b83b3;"></span><span>ARDUINO</span></li>
+          <li><span class="iconify" data-icon="logos:c-sharp" data-inline="false" data-width="90px" data-height="90px" style="color: #3b83b3;"></span><span>C#</span></li>  
+          <li><span class="iconify" data-icon="vscode-icons:file-type-vscode" data-inline="false" data-width="90px" data-height="90px" style="color: #3b83b3;"></span><span>VS Code</span></li>    
+          <li><span class="iconify" data-icon="akar-icons:jquery-fill" data-inline="false" data-width="90px" data-height="90px" style="color: #3b83b3;"></span><span>jQuery</span></li>
+          <li><span class="iconify" data-icon="file-icons:octave" data-inline="false" data-width="90px" data-height="90px" style="color: #30b1d1;"></span><span>GNU Octave</span></li>
+          <li><span class="iconify" data-icon="logos:sublimetext-icon" data-inline="false" data-width="90px" data-height="90px" style="color: #30b1d1;"></span><span>Sublime</span></li>
+          <li><span class="iconify" data-icon="eos-icons:iot" data-inline="false" data-width="90px" data-height="90px" style="color: #30b1d1;"></span><span>IoT</span></li>      
+        </ul>
+      </div>
+
+      <div class="seperator-skew-bottom">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+
+     <!-- Education -->
+     <section id="education" class="education">
+      <div class="container">
+        <h2 class="main-font" data-aos="fade-in">My <span class="text-blue main-font">Education</span></h2>
+
+        <div class="education-card" data-aos="zoom-in">
+            <div class="education-card-column">
+              <div class="card-column-image">
+                <img src="iitk_logo.png" alt="">
+              </div>
+
+              <div class="card-column-large">
+                <h4 class="education-year">2019 - Present</h4>
+                <h4>B.Tech , Indian Institute of Technology , Kanpur</h4>
+                <ul>
+                  <li>Civil Engineering</li>
+                </ul>
+                <hr>
+              </div>
+            </div>
+
+            <div class="education-card-column">
+              <div class="card-column-image">
+                <img src="dpsk_logo.jfif" alt="">
+              </div>
+
+              <div class="card-column-large">
+                <h4 class="education-year">2018</h4>
+                <h4>D. P. S , Kalyanpur</h4>
+                <ul>
+                  <li>Scholar</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title main-font" data-aos="fade-in">Contact <span class="text-blue main-font">Me</span></h2>
+        <div class="card-container">
+          <div class="card" data-aos="fade-in">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <a href="mailto:karshut@iitk.ac.in" class="text-blue" target="_blank">karshut@iitk.ac.in</a>
+          </div>
+          <div class="card" data-aos="fade-in" data-aos-delay="100">
+            <i class="fab fa-github"></i
+              >
+            <h3>GitHub</h3>
+            <a href="https://github.com/utkarshs1" class="text-blue" target="_blank">utkarshs1</a>
+          </div>
+          <div class="card" data-aos="fade-in" data-aos-delay="200">
+            <i class="fab fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/utkarsh-b7b9401a4/" class="text-blue" target="_blank">utkarsh-b7b9401a4</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-flex">
+          <img src="logo1.png" alt="logo" id="logo-footer">
+
+          <div class="footer-icon-links">
+            <a href="https://github.com/utkarshs1"
+              target="_blank"><i class="fab fa-github fa-2x"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/utkarsh-b7b9401a4/"
+              target="_blank"><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+            <a href="mailto:karshut@iitk.ac.in"><i class="fas fa-envelope fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top button in corner -->
+    <a id="backToTopBtn" class="btn-blue">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Particles.js for hero section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- GSAP animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+    <script>
+      particlesJS.load('particles-js', './particles.json', function(){
+        console.log("particles.josn loaded...")
+      })
+    </script>
+
+    <script defer src="js/app.js"></script>
+
+    <!-- AOS Animations -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>
